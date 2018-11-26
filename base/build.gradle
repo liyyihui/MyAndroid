@@ -30,6 +30,12 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // Navigation
+    def nav_version = "1.0.0-alpha06"
+    implementation "android.arch.navigation:navigation-fragment:$nav_version"
+    implementation "android.arch.navigation:navigation-ui:$nav_version"
+    androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version"
+
 }
 repositories {
     mavenCentral()
