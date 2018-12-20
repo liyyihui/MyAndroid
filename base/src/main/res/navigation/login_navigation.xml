@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/login_navigation">
-            
+            android:id="@+id/login_navigation"
+            app:startDestination="@id/longin_frame">
+
+    <fragment
+        android:id="@+id/longin_frame"
+        android:name="com.example.base.Base.Longin.longin_frame"
+        android:label="longin_frame">
+
+        <action
+            android:id="@+id/action_longin_frame_to_registered_frame"
+            app:destination="@id/registered_frame"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/registered_frame"
+        android:name="com.example.base.Base.Longin.registered_frame"
+        android:label="registered_frame"/>
 </navigation>
