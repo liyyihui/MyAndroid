@@ -5,5 +5,7 @@ ext {
             mtargetSdkVersion     : 28,
             mversionCode          : 1,
             mversionName          : "1.0",
+
     ]
+    barlibrary_version = "2.3.0"
 }
