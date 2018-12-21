@@ -1,0 +1,9 @@
+ext {
+    var = [
+            mcompileSdkVersion    : 28,
+            mminSdkVersion        : 22,
+            mtargetSdkVersion     : 28,
+            mversionCode          : 1,
+            mversionName          : "1.0",
+    ]
+}

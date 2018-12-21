@@ -11,7 +11,8 @@ class MainActivity : BaseActivity() {
 
     override fun init() {
        //跳转到登录页面
-        ARouter.getInstance().build("/login/activity").navigation();
+       //ARouter.getInstance().build("/login/activity").navigation();
+        ARouter.getInstance().build("/main/home").navigation();
     }
 
     override fun initdata() {
